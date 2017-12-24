@@ -1,0 +1,14 @@
+html, body {
+	height: 100%;
+	/*border: 1px blue solid;*/
+}
+.table-verstka {
+	height: 100%;
+	width: 100%;
+	border: 1px res solid;
+}
+
+.app-menu {
+	width: 20%;
+	min-width: 200px;
+}

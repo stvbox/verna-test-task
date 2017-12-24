@@ -1,0 +1,3 @@
+"agency_network_id"	"agency_network_name"
+"1"	"Первая сеть"
+"2"	"Вторая сеть"

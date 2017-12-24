@@ -1,0 +1,127 @@
+ ----------------------- Importer -----------------------  ----------------------- Models -----------------------  ----------------------- Repository ----------------------- Models\Network Object
+(
+    [agency_network_id] => 1
+    [agency_network_name] => Первая сеть
+)
+Models\Network Object
+(
+    [agency_network_id] => 2
+    [agency_network_name] => Вторая сеть
+)
+ ----------------------- Models ----------------------- Models\Agency Object
+(
+    [agency_id] => 1
+    [agency_network_id] => 1
+    [agency_name] => Первое агенство в первой группе
+)
+Models\Agency Object
+(
+    [agency_id] => 2
+    [agency_network_id] => 1
+    [agency_name] => Второе агенство в первой группе
+)
+Models\Agency Object
+(
+    [agency_id] => 3
+    [agency_network_id] => 2
+    [agency_name] => Первое агенство во второй группе
+)
+Models\Agency Object
+(
+    [agency_id] => 4
+    [agency_network_id] => 2
+    [agency_name] => Второе агенство во второй группе
+)
+Array
+(
+    [0] => Array
+        (
+            [agency_id] => 1
+            [user_id] => 123
+            [date] => 21.01.2017 23:00
+            [amount] => 100000
+        )
+
+    [1] => Array
+        (
+            [agency_id] => 2
+            [user_id] => 2345
+            [date] => 22.01.2017 23:00
+            [amount] => 100001
+        )
+
+    [2] => Array
+        (
+            [agency_id] => 3
+            [user_id] => 6345
+            [date] => 23.01.2017 23:00
+            [amount] => 100002
+        )
+
+    [3] => Array
+        (
+            [agency_id] => 4
+            [user_id] => 2345
+            [date] => 24.01.2017 23:00
+            [amount] => 100003
+        )
+
+    [4] => Array
+        (
+            [agency_id] => 1
+            [user_id] => 345
+            [date] => 25.01.2017 23:00
+            [amount] => 100004
+        )
+
+    [5] => Array
+        (
+            [agency_id] => 2
+            [user_id] => 2345
+            [date] => 26.01.2017 23:00
+            [amount] => 100005
+        )
+
+)
+ ----------------------- Models ----------------------- Models\Bill Object
+(
+    [agency_id] => 1
+    [user_id] => 123
+    [date] => 21.01.2017 23:00
+    [amount] => 100000
+)
+Models\Bill Object
+(
+    [agency_id] => 2
+    [user_id] => 2345
+    [date] => 22.01.2017 23:00
+    [amount] => 100001
+)
+Models\Bill Object
+(
+    [agency_id] => 3
+    [user_id] => 6345
+    [date] => 23.01.2017 23:00
+    [amount] => 100002
+)
+Models\Bill Object
+(
+    [agency_id] => 4
+    [user_id] => 2345
+    [date] => 24.01.2017 23:00
+    [amount] => 100003
+)
+Models\Bill Object
+(
+    [agency_id] => 1
+    [user_id] => 345
+    [date] => 25.01.2017 23:00
+    [amount] => 100004
+)
+Models\Bill Object
+(
+    [agency_id] => 2
+    [user_id] => 2345
+    [date] => 26.01.2017 23:00
+    [amount] => 100005
+)
